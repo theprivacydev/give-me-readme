@@ -1,9 +1,21 @@
 // Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // Array of questions for user input
 const questions = [
+    {
+        type: 'input',
+        message: 'What is your name?',
+        name: 'name',
+      },
+      {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'username',
+      },
     {
         type: 'input',
         message: 'What is the title of the application?',
@@ -43,7 +55,13 @@ const questions = [
             'ISC',
             'GNU GPLv3',
             'Apache License 2.0',
+            'Mozilla',
         ],
+      },
+      {
+        type: 'input',
+        message: 'What tests would you like?',
+        name: 'tests',
       },
       {
         type: 'input',
@@ -58,18 +76,23 @@ const questions = [
 
 ];
 
+
+
 // Function to write README file
 function writeToFile(fileName, data) {
     console.log(data); 
-    fs.writeFile(fileName, `Title: ${data.title} \nDescription: ${data.description} \nTable of Contents: ${data.contents} \nInstallation: ${data.installation} \n Installation: ${data.installation} \nUsage: ${data.usage} \nCredits: ${data.credits} \nLicense: ${data.license} \nNext Steps: ${data.nextSteps} \nAuthor: ${data.author}`, (err) =>
+    fs.writeFile(fileName, `Name: ${data.name} \nUsername: ${data.username} \nTitle: ${data.title} \nDescription: ${data.description} \nTable of Contents: ${data.contents} \nInstallation: ${data.installation} \n Installation: ${data.installation} \nUsage: ${data.usage} \nCredits: ${data.credits} \nLicense: ${data.license} \nNext Steps: ${data.nextSteps} \nAuthor: ${data.author}`, (err) =>
         err ? console.error(err) : console.log('Success!')
     );
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
+    inquirer.prompt(questions).then((response) => {
+    console.log(response);
+    writeToFile('README!.md', generateMarkdown({...response}));
 
-    writeToFile('README.md', data)
+    });
 }
 
 // Function call to initialize app
