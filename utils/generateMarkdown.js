@@ -48,8 +48,8 @@ ${data.tests}
 ${data.nextSteps}
 
 ## Author
-${data.name}
-${data.email}
+* ${data.name}
+* Email: ${data.email}
 
 `;
 }
