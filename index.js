@@ -13,8 +13,8 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What is your GitHub username?',
-        name: 'username',
+        message: 'What is your email?',
+        name: 'email',
       },
     {
         type: 'input',
@@ -25,11 +25,6 @@ const questions = [
         type: 'input',
         message: 'What is the description of this application?',
         name: 'Description',
-      },
-      {
-        type: 'input',
-        message: 'What would like in the table of contents?',
-        name: 'contents',
       },
       {
         type: 'input',
@@ -44,7 +39,7 @@ const questions = [
       {
         type: 'input',
         message: 'Who would you like to list as collaborators for this application?',
-        name: 'credits',
+        name: 'contributing',
       },
       {
         type: 'list',
@@ -60,18 +55,13 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What tests would you like?',
+        message: 'What tests would you like to run for this application?',
         name: 'tests',
       },
       {
         type: 'input',
         message: 'What would you like to list as next steps for this application?',
         name: 'nextSteps',
-      },
-      {
-        type: 'input',
-        message: 'Who would you like to list as the author and what is their contact info?',
-        name: 'author',
       },
 
 ];
@@ -81,9 +71,14 @@ const questions = [
 // Function to write README file
 function writeToFile(fileName, data) {
     console.log(data); 
-    fs.writeFile(fileName, `Name: ${data.name} \nUsername: ${data.username} \nTitle: ${data.title} \nDescription: ${data.description} \nTable of Contents: ${data.contents} \nInstallation: ${data.installation} \n Installation: ${data.installation} \nUsage: ${data.usage} \nCredits: ${data.credits} \nLicense: ${data.license} \nNext Steps: ${data.nextSteps} \nAuthor: ${data.author}`, (err) =>
-        err ? console.error(err) : console.log('Success!')
-    );
+    fs.writeFile(fileName, data, err => {
+        err ? console.error(err) 
+        : console.log('Success! README has been generated!')
+    });
+
+    // fs.writeFile(fileName, `Name: ${data.name} \nUsername: ${data.username} \nTitle: ${data.title} \nDescription: ${data.description} \nTable of Contents: ${data.contents} \nInstallation: ${data.installation} \n Installation: ${data.installation} \nUsage: ${data.usage} \nCredits: ${data.credits} \nLicense: ${data.license} \nNext Steps: ${data.nextSteps} \nAuthor: ${data.author}`, (err) =>
+    //     err ? console.error(err) : console.log('Success!')
+    // );
 }
 
 // Function to initialize app
