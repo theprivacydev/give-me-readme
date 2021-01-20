@@ -1,7 +1,6 @@
 // Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // Array of questions for user input
@@ -48,8 +47,8 @@ const questions = [
         choices: [
             'MIT',
             'ISC',
-            'GNU GPLv3',
-            'Apache License 2.0',
+            'GNU',
+            'Apache',
             'Mozilla',
         ],
       },
