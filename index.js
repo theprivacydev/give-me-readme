@@ -23,7 +23,7 @@ const questions = [
       {
         type: 'input',
         message: 'What is the description of this application?',
-        name: 'Description',
+        name: 'description',
       },
       {
         type: 'input',

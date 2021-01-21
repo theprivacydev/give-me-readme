@@ -3,34 +3,36 @@
 
 const licenses = {
   MIT: {
-    badge: '[!License: MIT](https://img.shields.io/badge/License-MIT-9cf)',
+    badge: '![License: MIT](https://img.shields.io/badge/License-MIT-9cf)',
     link: '[MIT](https://opensource.org/licenses/MIT)',
   },
   Apache: {
-    badge: '[!License: MIT](https://img.shields.io/badge/License-MIT-9cf)',
-    link: '[MIT](https://opensource.org/licenses/MIT)',
+    badge: '![License: Apache](https://img.shields.io/badge/License-Apache--2.0-9cf)',
+    link: '[Apache](https://opensource.org/licenses/Apache-2.0)',
   },
   ISC: {
-    badge: '[!License: MIT](https://img.shields.io/badge/License-MIT-9cf)',
-    link: '[MIT](https://opensource.org/licenses/MIT)',
+    badge: '![License: ISC](https://img.shields.io/badge/License-ISC-9cf)',
+    link: '[ISC](https://opensource.org/licenses/ISC)',
   },
   GNU: {
-    badge: '[!License: MIT](https://img.shields.io/badge/License-MIT-9cf)',
-    link: '[MIT](https://opensource.org/licenses/MIT)',
+    badge: '![License: GNU](https://img.shields.io/badge/License-GNU-9cf)',
+    link: '[GNU](https://opensource.org/licenses/gpl-license)',
   },
   Mozilla: {
-    badge: '[!License: MIT](https://img.shields.io/badge/License-MIT-9cf)',
-    link: '[MIT](https://opensource.org/licenses/MIT)',
+    badge: '![License: Mozilla](https://img.shields.io/badge/License-Mozilla-9cf)',
+    link: '[Mozilla](https://opensource.org/licenses/MPL-2.0)',
   },
 }
 
 function renderLicenseBadge(license) {
+  console.log(licenses[license].badge);
   return licenses[license].badge;
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  console.log(licenses[license].link);
   return licenses[license].link;
 }
 

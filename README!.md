@@ -1,9 +1,9 @@
 
 
-# asdf
+# Title
 
 ## Description
-undefined
+This is a responsive application.
 
 ## Table of Contents
   - [Installation](#installation)
@@ -16,17 +16,17 @@ undefined
 
 
 ## Installation
-asdf
+These are the install instructions
 
 ## Usage
-sadf
+asdf
 
 ## Contributing
-sadf
+aasdf
 
 ## License
-[!License: MIT](https://img.shields.io/badge/License-MIT-9cf)
-[MIT](https://opensource.org/licenses/MIT)
+![License: GNU](https://img.shields.io/badge/License-GNU-9cf)
+[GNU](https://opensource.org/licenses/gpl-license)
 
 ## Tests
 asdf
@@ -35,6 +35,6 @@ asdf
 asdf
 
 ## Author
-* asdf
-* Email: asdf
+* Jayme
+* Email: email@provider.com
 
