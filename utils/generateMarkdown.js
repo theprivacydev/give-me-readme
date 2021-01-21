@@ -80,10 +80,11 @@ ${data.tests}
 ## Next Steps
 ${data.nextSteps}
 
-## Author
+## Questions
+For additional questions please contact:
 * ${data.name}
 * Email: ${data.email}
-
+* ${data.git}
 `;
 }
 
