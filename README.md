@@ -7,7 +7,7 @@ This application is designed to use a command line to quickly and easily generat
   - [Installation](#installation)
   - [Usage](#usage)
   - [Video](#video)
-  - [Link To Generated README.md File](#link-to-generated-readme.md-file)
+  - [Link To Example File](#link-to-example-file)
   - [License](#license)
   - [Next Steps](#next-steps)
   - [Questions](#questions)
@@ -30,7 +30,7 @@ After running node.js in the command line, answer the prompts from the command l
 ## Video
 https://drive.google.com/file/d/1d-iri8NRNDFENGSFGrMKB_SnR1yjficb/view
 
-## Link To Generated README.md File
+## Link To Example File
 ![Generated README](README!.md)
 
 ## License
