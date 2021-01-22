@@ -7,7 +7,7 @@ This application is designed to use a command line to quickly and easily generat
   - [Installation](#installation)
   - [Usage](#usage)
   - [Video](#video)
-  - [Link](#link-to-generated-readme.md-file)
+  - [Link To Generated README.md File](#link-to-generated-readme.md-file)
   - [License](#license)
   - [Next Steps](#next-steps)
   - [Questions](#questions)
