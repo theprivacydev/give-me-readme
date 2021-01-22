@@ -39,13 +39,18 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  const licenseSection = `${renderLicenseBadge(license)}\n${renderLicenseLink(license)}`;
+  const licenseSection = `
+
+  ${renderLicenseLink(license)}
+  
+
+  ${renderLicenseBadge(license)}`;
   return licenseSection
 }
 
 // Generate markdown for README
 function generateMarkdown(data) {
-return `
+  return `
 
 # ${data.title}
 
@@ -57,13 +62,14 @@ ${data.description}
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
-  - [Next Steps](#next-steps)
   - [Tests](#tests)
-  - [Author](#author)
+  - [Next Steps](#next-steps)
+  - [Questions](#questions)
 
 
 ## Installation
-${data.installation}
+To install this application, simply clone this repository, open index.js in the integrated terminal, and run the following from the command line:
+\`\`\` ${data.installation} \`\`\`
 
 ## Usage
 ${data.usage}
