@@ -8,16 +8,16 @@ This application is designed to use a command line to quickly and easily generat
   - [Usage](#usage)
   - [Video](#video)
   - [Link To Example File](#link-to-example-file)
+  - [Technologies](#technologies)
   - [License](#license)
   - [Next Steps](#next-steps)
   - [Questions](#questions)
 
 
 ## Installation
-To install this application, simply clone this repository, open index.js in the integrated terminal, and run the following from the command line:
+To install this application, simply clone this repository, open the cloned repository folder in vs code, right click on the file index.js and select to "open in the integrated terminal", and run the following from the command line that appears:
 ```
-$npm init -y
-$npm i inquirer
+$npm i
 $git ignore node_modules
 $node index.js
 ```
@@ -33,6 +33,12 @@ https://drive.google.com/file/d/1d-iri8NRNDFENGSFGrMKB_SnR1yjficb/view
 ## Link To Example File
 ![Generated README](README!.md)
 
+## Technologies
+* JavaScript
+* Node.js
+* Markdown language
+* Node Package Manager
+
 ## License
 
 
@@ -43,7 +49,6 @@ https://drive.google.com/file/d/1d-iri8NRNDFENGSFGrMKB_SnR1yjficb/view
 
 ## Next Steps
 * Add feature to allow user to upload images based on prompts in command line
-* Fix formatting of installation instuctions so it prints as a code snippet
 
 ## Questions
 For additional questions please contact:

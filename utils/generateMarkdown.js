@@ -60,7 +60,7 @@ ${data.description}
 ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contributing](#contributing)
+  - [Technologies](#technologies)
   - [License](#license)
   - [Tests](#tests)
   - [Next Steps](#next-steps)
@@ -68,14 +68,13 @@ ${data.description}
 
 
 ## Installation
-To install this application, simply clone this repository, open index.js in the integrated terminal, and run the following from the command line:
 \`\`\` ${data.installation} \`\`\`
 
 ## Usage
 ${data.usage}
 
-## Contributing
-${data.contributing}
+## Technologies
+${data.technologies}
 
 ## License
 ${renderLicenseSection(data.license)}

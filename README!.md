@@ -1,26 +1,26 @@
 
 
-# Give Me README!
+# Reli-Note: The Reliable Note-Taking App
 
 ## Description
-This application generates a readme file from the command line.
+This is a reliable note-taking app that allows the user to create, save, and view their notes at will.
 
 ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
-  - [Next Steps](#next-steps)
   - [Tests](#tests)
+  - [Next Steps](#next-steps)
   - [Questions](#questions)
 
 
 ## Installation
 To install this application, simply clone this repository, open index.js in the integrated terminal, and run the following from the command line:
-``` Initiate node package modules with npm init -y then install the dependency "inquirer" with npm i inquirer. Remember to add node_modules to your git ignore file. ```
+``` This is a deployed application that can be used by clicking on the deployed application link. ```
 
 ## Usage
-Answer the prompts from the command line to populate the sections of the readme.md file.
+Click the "Get Started" button to begin.
 
 ## Contributing
 None
@@ -34,13 +34,13 @@ None
   ![License: MIT](https://img.shields.io/badge/License-MIT-9cf)
 
 ## Tests
-None.
+None
 
 ## Next Steps
-Add feature to allow user to upload images based on prompts in command line.
+*Edit CSS 
 
 ## Questions
 For additional questions please contact:
 * Jayme Mizelle
-* Email: jlm_developer@protonmail.com
-* https://github.com/jaymemizelle
+* Email: jayme.coder@gmail.com
+* https://github.com/jaymemizelle/
