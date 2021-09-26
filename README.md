@@ -52,6 +52,6 @@ https://drive.google.com/file/d/1d-iri8NRNDFENGSFGrMKB_SnR1yjficb/view
 
 ## Questions
 For additional questions please contact:
-* Jayme Mizelle
-* Email: jlm_developer@protonmail.com
-* https://github.com/jaymemizelle
+* The Privacy Dev
+* Email: theprivacydev@protonmail.com
+* https://github.com/theprivacydev
